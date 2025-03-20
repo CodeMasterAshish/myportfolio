@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">Ashish Jha</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="image-content"><img src="ZdUFIDrU_400x400.jpg"></div>
+            <h1>Hi, I'm <span class="highlight">Ashish Jha</span></h1>
+            <p class="subtitle">Front-End Developer</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate developer with experience in creating modern web applications. I love turning complex problems into simple, beautiful solutions.</p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Angular</span>
+                    <span>Jquery</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <div class="resume-content">
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>Bachelor of Computer Application</h4>
+                    <p class="resume-place">Maharishi Dayanand University</p>
+                    <p class="resume-date">2021 - 2024</p>
+                    <p class="resume-description">Relevant coursework in Software Engineering, Data Structures, and Web Development.</p>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Experience</h3>
+                <div class="resume-item">
+                    <h4>Full Stack Developer Intern</h4>
+                    <p class="resume-place">Code Alpha</p>
+                    <p class="resume-date"> January 2025</p>
+                    <ul class="resume-list">
+                        <li>Developed and maintained web applications using modern technologies</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality solutions</li>
+                        <li>Improved application performance by 40% through optimization</li>
+                    </ul>
+                </div>
+                <!-- <div class="resume-item">
+                    <h4>Web Development Intern</h4>
+                    <p class="resume-place">Company Name</p>
+                    <p class="resume-date">2022 - 2023</p>
+                    <ul class="resume-list">
+                        <li>Assisted in developing responsive web interfaces</li>
+                        <li>Participated in code reviews and team meetings</li>
+                        <li>Learned and implemented best practices in web development</li>
+                    </ul>
+                </div>
+            </div> -->
+
+            <div class="resume-section">
+                <h3>Certifications</h3>
+                <div class="resume-item">
+                    <h4>Second Place in Webscape Hackathon </h4>
+                    <!-- <p class="resume-place">Platform Name</p> -->
+                    <p class="resume-date">2025</p>
+                </div>
+            </div>
+
+            <a href="#" class="download-resume">Download Full Resume</a>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid" id="projectGrid">
+            <!-- Projects will be added dynamically via JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <form id="contactForm" class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Ashish Jha. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="portfolio.js"></script>
+</body>
+</html>
